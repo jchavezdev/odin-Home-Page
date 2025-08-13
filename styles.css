@@ -1,3 +1,46 @@
-h1{
-    color:blueviolet;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding: 0px;
+    border: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.general-section{
+    margin-left: 200px; 
+    margin-right: 200px; 
+    /*width: 1400px;*/ 
+    height: 400px; 
+    box-sizing: border-box; 
+    border: 5px;
+}
+
+/*section 1*/
+.section-1{
+    background-color: #1F2937;
+    padding: 4rem;
+   /*height: 400px;
+    width: max-content;*/
+    /*display: flex;
+    justify-content: space-around;*/
+}
+
+.axolotl-img{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 300px;
+    max-width: 300px;
+}
+
+.section-1-con1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section-1-par{
+    margin: 30px 40px;
+    background-color: lightgrey;
+    text-align: center;
+    font-size: x-large;
 }
