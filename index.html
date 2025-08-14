@@ -1,77 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
-    <script src='main.js'></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Awesome Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <!--Section1-->
-    <div class="dark-blue-color">
-        <div class="general-section section-1 ">
-            <h1>This website is awesome</h1>
+<!-- SECTION 1 -->
+<header class="section section-1">
+    <h1>This website is awesome</h1>
+    <div class="content">
+        <img src="./images/axolotl.png" alt="Axolotl cartoon" class="axolotl-img">
+        <p>This website has some subtext that goes here under
+           the main title. It's a smaller font and the color
+           is lower contrast.</p>
+    </div>
+</header>
 
-            <div class="section-1-con1">
-
-                <img src="./images/axolotl.png" class="axolotl-img">
-
-                <p class="section-1-par">This website has some subtext that goes here under
-                    the main title. It's a smaller font and the color
-                    is lower contrast
-                </p>
-                
-            </div>
-
+<!-- SECTION 2 -->
+<section class="section section-2">
+    <h2>Some random information.</h2>
+    <div class="image-grid">
+        <div class="image-card">
+            <img src="./images/as1.png" alt="Illustration 1" class="square-img">
+            <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="image-card">
+            <img src="./images/as2.png" alt="Illustration 2" class="square-img">
+            <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="image-card">
+            <img src="./images/as3.png" alt="Illustration 3" class="square-img">
+            <p>This is some subtext under an illustration or image</p>
+        </div>
+        <div class="image-card">
+            <img src="./images/as4.png" alt="Illustration 4" class="square-img">
+            <p>This is some subtext under an illustration or image</p>
         </div>
     </div>
+</section>
 
-    <!--Section2-->
-    <div class="section-2">
-        <h2 class="section-2-h2">Some random information.</h2>
+<!-- SECTION 3 -->
+<section class="section section-3">
+    <div class="contact-text">
+        <h3>Contact me</h3>
+        <p>Please get in touch if you think our work could be mutually beneficial!</p>
+        <p>1234 Random Street</p>
 
-        <div class="section-2-images">
-            <div class="section-2-rectangle">
-                <img src="./images/as1.png" class="section-2-square">
-                <p>This is some subtext under a illustration or image</p>
-            </div>
-
-            <div class="section-2-rectangle">
-                <img src="./images/as2.png" class="section-2-square">
-                <p>This is some subtext under a illustration or image</p>
-            </div>
-
-            <div class="section-2-rectangle">
-                <img src="./images/as3.png" class="section-2-square">
-                <p>This is some subtext under a illustration or image</p>
-            </div>
-
-            <div class="section-2-rectangle">
-                <img src="./images/as4.png" class="section-2-square">
-                <p>This is some subtext under a illustration or image</p>
-            </div>
-
+        <!-- ICONOS DE CONTACTO -->
+        <div class="contact-icons">
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="36" height="36">
+                    <path d="M4.98 3.5C4.98 4.88 3.88 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8.99h4.55V24H.22V8.99zM8.6 8.99h4.37v2.04h.06c.61-1.15 2.1-2.37 4.33-2.37 4.63 0 5.48 3.05 5.48 7V24h-4.55v-6.73c0-1.6-.03-3.66-2.23-3.66-2.23 0-2.57 1.74-2.57 3.54V24H8.6V8.99z"/>
+                </svg>
+            </a>
+            <!-- Teléfono -->
+            <a href="tel:+123456789" aria-label="Teléfono">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="36" height="36">
+                    <path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21c1.2.48 2.5.74 3.84.74a1 1 0 011 1v3.25a1 1 0 01-1 1C9.39 21.5 2.5 14.61 2.5 6a1 1 0 011-1h3.25a1 1 0 011 1c0 1.34.26 2.64.74 3.84a1 1 0 01-.21 1.11l-2.2 2.2z"/>
+                </svg>
+            </a>
+            <!-- Correo -->
+            <a href="mailto:correo@ejemplo.com" aria-label="Correo">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" width="36" height="36">
+                    <path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 2v.01L12 13 4 6.01V6h16zm0 12H4V8l8 5 8-5v10z"/>
+                </svg>
+            </a>
         </div>
 
     </div>
-
-    <!--Section3-->
-    <div class="section-3">
-
-        <div class="section-3-rectangle">
-            <h3>Contact me</h3>
-
-            <p>Please get in touch if you think our work cpuld be mutually beneficial!!!</p>
-            <p>1234 random street</p>
-
-        </div>
-
-        <img src="./images/wolf.png" class="section-3-img section-3-rectangle">
-
-    </div>
+    <img src="./images/wolf.png" alt="Wolf illustration" class="contact-img">
+</section>
 
 </body>
 </html>
+
+
